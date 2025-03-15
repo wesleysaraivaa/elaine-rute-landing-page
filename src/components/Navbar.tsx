@@ -27,7 +27,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a
-          href="#inicio"
+          href="#home"
           className={`${isScrolled ? "text-navy" : "text-white"}`}
         >
           <img
@@ -45,7 +45,7 @@ const Navbar = () => {
 
         <nav className="hidden md:flex space-x-8">
           <a
-            href="#inicio"
+            href="#home"
             className={`${
               isScrolled ? "text-navy" : "text-white"
             } hover:text-gold transition-colors`}
@@ -53,7 +53,7 @@ const Navbar = () => {
             Início
           </a>
           <a
-            href="#sobre"
+            href="#about"
             className={`${
               isScrolled ? "text-navy" : "text-white"
             } hover:text-gold transition-colors`}
@@ -61,7 +61,7 @@ const Navbar = () => {
             Sobre
           </a>
           <a
-            href="#areas-de-atuacao"
+            href="#areas-of-activity"
             className={`${
               isScrolled ? "text-navy" : "text-white"
             } hover:text-gold transition-colors`}
@@ -69,7 +69,7 @@ const Navbar = () => {
             Áreas de Atuação
           </a>
           <a
-            href="#depoimentos"
+            href="#testimonials"
             className={`${
               isScrolled ? "text-navy" : "text-white"
             } hover:text-gold transition-colors`}
@@ -77,7 +77,7 @@ const Navbar = () => {
             Depoimentos
           </a>
           <a
-            href="#contato"
+            href="#contact"
             className={`${
               isScrolled ? "text-navy" : "text-white"
             } hover:text-gold transition-colors`}
@@ -99,35 +99,35 @@ const Navbar = () => {
         <nav className="md:hidden bg-white shadow-lg">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <a
-              href="#inicio"
+              href="#home"
               className="text-navy hover:text-gold transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Início
             </a>
             <a
-              href="#sobre"
+              href="#about"
               className="text-navy hover:text-gold transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Sobre
             </a>
             <a
-              href="#areas-de-atuacao"
+              href="#areas-of-activity"
               className="text-navy hover:text-gold transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Áreas de Atuação
             </a>
             <a
-              href="#depoimentos"
+              href="#testimonials"
               className="text-navy hover:text-gold transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >
               Depoimentos
             </a>
             <a
-              href="#contato"
+              href="#contact"
               className="text-navy hover:text-gold transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >
