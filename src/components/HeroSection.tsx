@@ -1,7 +1,7 @@
 const HeroSection = () => {
   return (
     <>
-      <section></section>
+      <section className="min-h-screen bg-primary"></section>
     </>
   );
 };
