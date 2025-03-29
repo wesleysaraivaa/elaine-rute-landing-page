@@ -33,7 +33,7 @@ const HeroSection = () => {
               Agendar Consulta
             </a>
             <a
-              href="#areas-of-activity"
+              href="#services"
               className="btn-secondary text-white border-white hover:text-gold hover:border-gold"
             >
               Áreas de Atuação

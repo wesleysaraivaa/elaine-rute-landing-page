@@ -61,7 +61,7 @@ const Navbar = () => {
             Sobre
           </a>
           <a
-            href="#areas-of-activity"
+            href="#services"
             className={`${
               isScrolled ? "text-navy" : "text-white"
             } hover:text-gold transition-colors`}
@@ -113,7 +113,7 @@ const Navbar = () => {
               Sobre
             </a>
             <a
-              href="#areas-of-activity"
+              href="#services"
               className="text-navy hover:text-gold transition-colors py-2"
               onClick={() => setIsMenuOpen(false)}
             >

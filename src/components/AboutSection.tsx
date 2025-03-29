@@ -1,4 +1,4 @@
-import { Award, BookOpen, Clock, ArrowRight } from "lucide-react";
+import { Award, BookOpen, Clock } from "lucide-react";
 
 const AboutSection = () => {
   return (
@@ -7,7 +7,7 @@ const AboutSection = () => {
         <div className="relative md:w-2/5">
           <img
             src="/src/assets/images/martelo.png?height=600&width=400"
-            alt="Martelo Justiça"
+            alt="Foto do Martelo Justiça"
             className="relative rounded-lg shadow-xl w-full h-auto"
           />
           <div className="absolute -right-6 -bottom-6 p-4 rounded-lg shadow-lg bg-gold">
@@ -58,14 +58,6 @@ const AboutSection = () => {
                 sucesso.
               </p>
             </div>
-
-            <a
-              href="#"
-              className="btn-secondary inline-flex items-center gap-2 m-auto"
-            >
-              Currículo Completo
-              <ArrowRight />
-            </a>
           </div>
         </div>
       </div>
