@@ -69,14 +69,6 @@ const Navbar = () => {
             Áreas de Atuação
           </a>
           <a
-            href="#testimonials"
-            className={`${
-              isScrolled ? "text-navy" : "text-white"
-            } hover:text-gold transition-colors`}
-          >
-            Depoimentos
-          </a>
-          <a
             href="#contact"
             className={`${
               isScrolled ? "text-navy" : "text-white"
