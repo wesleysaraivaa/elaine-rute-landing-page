@@ -1,5 +1,7 @@
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
+import logoNome from "../assets/images/logo-nome.webp";
+
 interface NavLink {
   id: string;
   href: string;
@@ -86,7 +88,7 @@ const Footer = () => {
             </div>
             <div className="hidden md:flex">
               <img
-                src="/src/assets/images/logo-nome.webp"
+                src={logoNome}
                 alt="Logo Dra. Elaine Rute Araújo"
                 className="w-32 sm:w-40 md:w-48 lg:w-56 h-auto object-contain"
               />
@@ -96,7 +98,7 @@ const Footer = () => {
 
         <div className="border-t border-white/20 mt-8 pt-8 text-center text-sm">
           <p>
-            &copy; {currentYear} Dra. Elaine Rute Araújo. Todos os direitos
+            © {currentYear} Dra. Elaine Rute Araújo. Todos os direitos
             reservados.
           </p>
           <p className="mt-2">
