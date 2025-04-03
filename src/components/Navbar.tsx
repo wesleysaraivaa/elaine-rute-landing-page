@@ -33,8 +33,8 @@ const Navbar = () => {
           <img
             src={
               isScrolled
-                ? "/src/assets/images/logo-dark.png"
-                : "/src/assets/images/logo.png"
+                ? "/src/assets/images/logo-dark.webp"
+                : "/src/assets/images/logo.webp"
             }
             alt="Logo Dra. Elaine Rute Araújo"
             className={`h-10 md:h-12 w-auto object-contain transition-all duration-300 ${

@@ -86,7 +86,7 @@ const Footer = () => {
             </div>
             <div className="hidden md:flex">
               <img
-                src="/src/assets/images/logo-nome.png"
+                src="/src/assets/images/logo-nome.webp"
                 alt="Logo Dra. Elaine Rute Araújo"
                 className="w-32 sm:w-40 md:w-48 lg:w-56 h-auto object-contain"
               />

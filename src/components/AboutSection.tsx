@@ -6,7 +6,7 @@ const AboutSection = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row gap-12 items-center">
         <div className="relative md:w-2/5">
           <img
-            src="/src/assets/images/martelo.png?height=600&width=400"
+            src="/src/assets/images/martelo.webp?height=600&width=400"
             alt="Foto do Martelo Justiça"
             className="relative rounded-lg shadow-xl w-full h-auto"
           />
