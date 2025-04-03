@@ -1,4 +1,5 @@
 import { ChevronDown } from "lucide-react";
+import perfil from "../assets/images/perfil.webp";
 
 const HeroSection = () => {
   const scrollToNextSection = () => {
@@ -45,7 +46,7 @@ const HeroSection = () => {
           <div className="relative">
             <div className="w-64 h-64 mt-12 md:mt-0 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gold shadow-2xl">
               <img
-                src="/src/assets/images/perfil.webp"
+                src={perfil}
                 alt="Dra. Elaine Rute Araújo"
                 className="w-full object-cover"
               />

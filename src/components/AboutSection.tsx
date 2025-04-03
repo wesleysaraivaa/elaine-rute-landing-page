@@ -1,12 +1,14 @@
 import { Award, BookOpen, Clock } from "lucide-react";
 
+import martelo from "../assets/images/martelo.webp";
+
 const AboutSection = () => {
   return (
     <section className=" py-20 bg-white" id="about">
       <div className="container mx-auto px-4 flex flex-col md:flex-row gap-12 items-center">
         <div className="relative md:w-2/5">
           <img
-            src="/src/assets/images/martelo.webp?height=600&width=400"
+            src={martelo}
             alt="Foto do Martelo Justiça"
             className="relative rounded-lg shadow-xl w-full h-auto"
           />

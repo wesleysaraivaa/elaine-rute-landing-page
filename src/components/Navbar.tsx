@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
+import logodark from "../assets/images/logo-dark.webp";
+import logo from "../assets/images/logo.webp";
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,11 +34,7 @@ const Navbar = () => {
           className={`${isScrolled ? "text-navy" : "text-white"}`}
         >
           <img
-            src={
-              isScrolled
-                ? "/src/assets/images/logo-dark.webp"
-                : "/src/assets/images/logo.webp"
-            }
+            src={isScrolled ? logodark : logo}
             alt="Logo Dra. Elaine Rute Araújo"
             className={`h-10 md:h-12 w-auto object-contain transition-all duration-300 ${
               isScrolled ? "brightness-100" : "brightness-200"
@@ -131,5 +130,4 @@ const Navbar = () => {
     </header>
   );
 };
-
 export default Navbar;
