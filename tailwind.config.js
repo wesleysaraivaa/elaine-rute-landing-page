@@ -5,7 +5,9 @@ export default {
     extend: {
       colors: {
         navy: "#0A2342",
+        "navy-dark": "#07182E",
         gold: "#D4AF37",
+        "gold-dark": "#B5942E",
         primary: "#622125",
       },
       fontFamily: {

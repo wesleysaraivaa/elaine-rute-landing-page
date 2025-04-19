@@ -5,7 +5,7 @@ import ServiceSection from "./components/ServiceSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
-import Artigos from "./components/Artigos";
+import ArticlesSection from "./components/ArticlesSection";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <HeroSection />
         <AboutSection />
         <ServiceSection />
-        <Artigos />
+        <ArticlesSection />
         <ContactSection />
         <Footer />
       </main>
