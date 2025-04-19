@@ -1,5 +1,6 @@
 import { ChevronDown } from "lucide-react";
 import perfil from "../assets/images/perfil.webp";
+import capahero from "../assets/images/capa-hero.webp";
 
 const HeroSection = () => {
   const scrollToNextSection = () => {
@@ -13,7 +14,7 @@ const HeroSection = () => {
       className="relative min-h-screen flex items-center pt-16"
       id="home"
       style={{
-        backgroundImage: "url('/src/assets/images/capa-hero.png')",
+        backgroundImage: `url(${capahero})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
