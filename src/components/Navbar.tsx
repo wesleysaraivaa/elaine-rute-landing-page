@@ -68,6 +68,14 @@ const Navbar = () => {
             Áreas de Atuação
           </a>
           <a
+            href="#artigos"
+            className={`${
+              isScrolled ? "text-navy" : "text-white"
+            } hover:text-gold transition-colors`}
+          >
+            Artigos
+          </a>
+          <a
             href="#contact"
             className={`${
               isScrolled ? "text-navy" : "text-white"

@@ -2,7 +2,7 @@ import { Mail, MessageCircleMore, Phone, Send } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-20 ">
+    <section id="contact" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="section-title">Entre em Contato</h2>
@@ -15,7 +15,7 @@ const ContactSection = () => {
 
         <div className="flex flex-col lg:flex-row gap-12">
           <div className="lg:w-1/3">
-            <div className="bg-gray-100 p-6 rounded-lg shadow-md h-full">
+            <div className="bg-white p-6 rounded-lg shadow-md h-full">
               <h3 className="text-xl font-bold mb-6 pb-3 border-b border-gray-200">
                 Informações de Contato
               </h3>
@@ -70,7 +70,7 @@ const ContactSection = () => {
             </div>
           </div>
           <div className="lg:w-2/3">
-            <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+            <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-6 pb-2 border-b border-gray-200 ">
                 Envie uma Mensagem
               </h3>
