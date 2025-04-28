@@ -11,36 +11,36 @@ interface Artigo {
   image: string;
 }
 
-const artigos: Artigo[] = [
-  {
-    id: 1,
-    title: "Artigo 1",
-    description:
-      "Descrição do Artigo 1 Descrição do Artigo 1 Descrição do Artigo 1 Descrição do Artigo 1 Descrição do Artigo 1 Descrição do Artigo 1 ",
-    date: "15 de Março, 2025",
-    readTime: "5",
-    image: capaArtigo1,
-  },
-  {
-    id: 2,
-    title: "Artigo 2",
-    description:
-      "Descrição do Artigo 2 Descrição do Artigo 2  Descrição do Artigo 2 Descrição do Artigo 2 Descrição do Artigo 2 Descrição do Artigo 2 Descrição do Artigo 2 Descrição do Artigo 2 Descrição do Artigo 2 Descrição do Artigo 2",
-    date: "10 de Março, 2025",
-    readTime: "9",
-    image: capaArtigo1,
-  },
-  {
-    id: 3,
-    title: "Artigo 3",
-    description: "Descrição do Artigo 3 Descrição do Artigo 3",
-    date: "5 de Março, 2025",
-    readTime: "6",
-    image: capaArtigo1,
-  },
-];
-
 const ArticlesSection = () => {
+  const artigos: Artigo[] = [
+    {
+      id: 1,
+      title: "Artigo 1",
+      description:
+        "Descrição do Artigo 1 Descrição do Artigo 1 Descrição do Artigo 1 Descrição do Artigo 1 Descrição do Artigo 1 Descrição do Artigo 1 ",
+      date: "15 de Março, 2025",
+      readTime: "5",
+      image: capaArtigo1,
+    },
+    {
+      id: 2,
+      title: "Artigo 2",
+      description:
+        "Descrição do Artigo 2 Descrição do Artigo 2  Descrição do Artigo 2 Descrição do Artigo 2 Descrição do Artigo 2 Descrição do Artigo 2 Descrição do Artigo 2 Descrição do Artigo 2 Descrição do Artigo 2 Descrição do Artigo 2",
+      date: "10 de Março, 2025",
+      readTime: "9",
+      image: capaArtigo1,
+    },
+    {
+      id: 3,
+      title: "Artigo 3",
+      description: "Descrição do Artigo 3 Descrição do Artigo 3",
+      date: "5 de Março, 2025",
+      readTime: "6",
+      image: capaArtigo1,
+    },
+  ];
+
   return (
     <section id="artigos" className="bg-white py-16">
       <div className="container mx-auto px-4">
